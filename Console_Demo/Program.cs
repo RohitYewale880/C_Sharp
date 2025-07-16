@@ -14,6 +14,12 @@ namespace Console_Demo
             string inp = Console.ReadLine();
             Console.WriteLine(inp);
             Console.ReadLine();
+
+            int a = 12;
+            int b = 12;
+            Console.Write("Addition of two number is => ");
+            Console.WriteLine(a + b);
+            Console.ReadLine();
         }
     }
 }
