@@ -10,6 +10,10 @@ namespace Console_Demo
     {
         static void Main(string[] args)
         {
+            Console.Write("Enter The word you want to display : ");
+            string inp = Console.ReadLine();
+            Console.WriteLine(inp);
+            Console.ReadLine();
         }
     }
 }

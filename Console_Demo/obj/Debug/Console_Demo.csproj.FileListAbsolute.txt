@@ -1,0 +1,7 @@
+D:\C#\Console_Demo\bin\Debug\Console_Demo.exe.config
+D:\C#\Console_Demo\bin\Debug\Console_Demo.exe
+D:\C#\Console_Demo\bin\Debug\Console_Demo.pdb
+D:\C#\Console_Demo\obj\Debug\Console_Demo.csproj.AssemblyReference.cache
+D:\C#\Console_Demo\obj\Debug\Console_Demo.csproj.CoreCompileInputs.cache
+D:\C#\Console_Demo\obj\Debug\Console_Demo.exe
+D:\C#\Console_Demo\obj\Debug\Console_Demo.pdb
