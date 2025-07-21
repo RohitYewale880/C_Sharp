@@ -135,26 +135,67 @@ namespace Console_Demo
 
             //Decision control in C#
 
-            Console.WriteLine("Enter your age to know you can drive or not");
-            string Wage = (Console.ReadLine());
-            int age = Convert.ToInt32(Wage);
+            //Console.WriteLine("Enter your age to know you can drive or not");
+            //string Wage = (Console.ReadLine());
+            //int age = Convert.ToInt32(Wage);
 
-                if(age < 2)
-                {
-                    Console.WriteLine("you are just born");
-                }
-                else if (age < 18)
-                {
-                    Console.WriteLine("wait for you become a 18 years old");
-                }
-                else if (age > 75)
-                {
-                    Console.WriteLine("it is risk to drive, please dont drive!!!");
-                }
-                else
-                {
-                    Console.WriteLine("yea you can drive...");
-                }
+            //    if(age < 2)
+            //    {
+            //        Console.WriteLine("you are just born");
+            //    }
+            //    else if (age < 18)
+            //    {
+            //        Console.WriteLine("wait for you become a 18 years old");
+            //    }
+            //    else if (age > 75)
+            //    {
+            //        Console.WriteLine("it is risk to drive, please dont drive!!!");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("yea you can drive...");
+            //    }
+
+            //Console.ReadLine();
+
+
+
+            //Switch control in C#
+
+            Console.WriteLine("Enter your age to know you can drive or not");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            // Categorize age into groups
+            string ageGroup;
+
+            if (age < 2)
+                ageGroup = "baby";
+            else if (age < 18)
+                ageGroup = "minor";
+            else if (age > 75)
+                ageGroup = "senior";
+            else
+                ageGroup = "adult";
+
+            // Use switch to decide message
+            switch (ageGroup)
+            {
+                case "baby":
+                    Console.WriteLine("You are just born");
+                    break;
+                case "minor":
+                    Console.WriteLine("Wait until you become 18 years old");
+                    break;
+                case "senior":
+                    Console.WriteLine("It is risky to drive, please don't drive!!!");
+                    break;
+                case "adult":
+                    Console.WriteLine("Yes, you can drive...");
+                    break;
+                default:
+                    Console.WriteLine("Invalid input");
+                    break;
+            }
 
             Console.ReadLine();
         }
