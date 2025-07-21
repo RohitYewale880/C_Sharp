@@ -102,17 +102,24 @@ namespace Console_Demo
 
             //String in C# =>
 
-            string name = " Rohit Yewale";
-            Console.WriteLine(name);
-            Console.WriteLine(name.Length);
-            Console.WriteLine(name.ToUpper());
-            Console.WriteLine(name.ToLower());
-            Console.WriteLine(name.Trim());
-            Console.WriteLine(name.Substring(3,3));
-            Console.WriteLine(name.Replace("R","M"));
-            Console.WriteLine(name.Contains("hit"));
-            Console.WriteLine(name.IndexOf("t"));
-            Console.WriteLine(name.Split(' '));
+            //string name = " Rohit Yewale";
+            //Console.WriteLine(name);
+            //Console.WriteLine(name.Length);
+            //Console.WriteLine(name.ToUpper());
+            //Console.WriteLine(name.ToLower());
+            //Console.WriteLine(name.Trim());
+            //Console.WriteLine(name.Substring(3,3));
+            //Console.WriteLine(name.Replace("R","M"));
+            //Console.WriteLine(name.Contains("hit"));
+            //Console.WriteLine(name.IndexOf("t"));
+            //Console.WriteLine(name.Split(' '));
+            //Console.ReadLine();
+
+            //string concatination
+            string first = "rohit";
+            string secound = "yewale";
+            string result = first + " " + secound;
+            Console.WriteLine(result);
             Console.ReadLine();
         }
     }
