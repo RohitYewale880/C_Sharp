@@ -34,6 +34,7 @@ namespace Console_Demo
             //Console.WriteLine("My name is " + name + ".");
             //Console.Read();
 
+            //////////////////////////////////////////////////////////////////////////////////////////////////
 
             //Operators in C# =>
 
@@ -76,6 +77,7 @@ namespace Console_Demo
             //Console.WriteLine(false || false);
             //Console.ReadLine();
 
+            //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
             // Math classes in the C# =>
@@ -99,6 +101,7 @@ namespace Console_Demo
             //Console.WriteLine(Math.E);
             //Console.ReadLine();
 
+            //////////////////////////////////////////////////////////////////////////////////////////////////
 
             //String in C# =>
 
@@ -123,11 +126,37 @@ namespace Console_Demo
             //Console.ReadLine();
 
             //srting interpolation
-            string name = "Rohit";
-            string interpolated = $"Hello {name}!";
-            Console.WriteLine(interpolated);
-            Console.ReadLine();
+            //string name = "Rohit";
+            //string interpolated = $"Hello {name}!";
+            //Console.WriteLine(interpolated);
+            //Console.ReadLine();
 
+            //////////////////////////////////////////////////////////////////////////////////////////////////
+
+            //Decision control in C#
+
+            Console.WriteLine("Enter your age to know you can drive or not");
+            string Wage = (Console.ReadLine());
+            int age = Convert.ToInt32(Wage);
+
+                if(age < 2)
+                {
+                    Console.WriteLine("you are just born");
+                }
+                else if (age < 18)
+                {
+                    Console.WriteLine("wait for you become a 18 years old");
+                }
+                else if (age > 75)
+                {
+                    Console.WriteLine("it is risk to drive, please dont drive!!!");
+                }
+                else
+                {
+                    Console.WriteLine("yea you can drive...");
+                }
+
+            Console.ReadLine();
         }
     }
 }
