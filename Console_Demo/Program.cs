@@ -116,11 +116,18 @@ namespace Console_Demo
             //Console.ReadLine();
 
             //string concatination
-            string first = "rohit";
-            string secound = "yewale";
-            string result = first + " " + secound;
-            Console.WriteLine(result);
+            //string first = "rohit";
+            //string secound = "yewale";
+            //string result = first + " " + secound;
+            //Console.WriteLine(result);
+            //Console.ReadLine();
+
+            //srting interpolation
+            string name = "Rohit";
+            string interpolated = $"Hello {name}!";
+            Console.WriteLine(interpolated);
             Console.ReadLine();
+
         }
     }
 }
